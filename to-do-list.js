@@ -29,7 +29,7 @@ const getAuthorList = async (slicedTodolist) => {
             fetch(`https://jsonplaceholder.typicode.com/users/${toDoTab.userId}`)
         );
         const responses = await Promise.all(slicedResponses);
-        const authorResults = responses.map((result) => result.json());
+        const authorResults = responses.map((res) => res.json());
         const authorList = await Promise.all(authorResults);
 
         const toDoAndAuthorList = slicedTodolist.map((toDoTab, index) => ({...toDoTab, ...authorList[index]}));
