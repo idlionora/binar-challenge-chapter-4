@@ -1,0 +1,50 @@
+html {
+    font-size: 100%;
+    box-sizing: border-box;
+}
+
+body {
+    line-height: 1.5;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    font-weight: 300;
+    background: #fff;
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+
+.is-complete {
+    font-size: 1.2rem;
+}
+
+.hidden {
+    display: none;
+}
+
+.show-up {
+    display: block;
+}
+
+.text-red {
+    color: #FA2C5A;
+}
+
+.text-green {
+    color: #73CA5C;;
+}
+
+.page-button {
+    text-decoration: none;
+}
+
+.disabled {
+    color: #8A8A8A;
+    cursor: auto;
+}
+
+.disabled:hover {
+    color: #8A8A8A;
+}
+
